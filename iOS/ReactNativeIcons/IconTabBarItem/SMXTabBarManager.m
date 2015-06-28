@@ -5,6 +5,7 @@
 @implementation SMXTabBarManager
 
 @synthesize bridge = _bridge;
+@synthesize methodQueue = _methodQueue;
 
 RCT_EXPORT_MODULE()
 
